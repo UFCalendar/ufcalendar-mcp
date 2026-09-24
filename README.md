@@ -31,7 +31,7 @@ http_headers = { Authorization = "Bearer $UFCALENDAR_API_KEY" }
 
 Send `Accept: application/json, text/event-stream`. One tool call = one metered request against the same plan quota as REST. Three discovery tools need no credential.
 
-## Tools (46)
+## Tools (49)
 
 | Tool | What it answers | Access |
 |---|---|---|
@@ -49,6 +49,9 @@ Send `Accept: application/json, text/event-stream`. One tool call = one metered 
 | `how_to_watch` | How to watch an event | any plan |
 | `get_event_storylines` | Get event storylines | any plan |
 | `get_pickem_splits` | Get pick'em splits | any plan |
+| `get_event_odds` | Get consensus odds for a card | any plan |
+| `get_fight_odds` | Get consensus odds for a bout | any plan |
+| `get_odds_history` | Get the odds line movement | Pro+ |
 | `get_fight` | Get a bout | any plan |
 | `find_fights` | Find fights | any plan |
 | `search` | Search fighters and events | any plan |
@@ -84,7 +87,7 @@ Send `Accept: application/json, text/event-stream`. One tool call = one metered 
 
 Five prompts ship too: `preview_card`, `tale_of_the_tape`, `results_recap`, `fight_week_briefing`, `record_book`. Resources: `ufcalendar://event/{slug}`, `ufcalendar://fighter/{slug}`, `ufcalendar://org/{slug}/rankings`.
 
-Rules the server keeps: no betting odds, ever; judges' scorecards are the commission record only; every read tool is read-only and closed-world.
+Rules the server keeps: betting odds are one anonymised UFCalendar consensus line per bout (the mean across the sportsbooks we track, no sportsbook ever named), information only, not betting advice; judges' scorecards are the commission record only; every read tool is read-only and closed-world.
 
 ## Also
 - Agent skill (endpoint reference + which-tool-for-which-question): `npx skills add UFCalendar/fight-api-skill` — https://github.com/UFCalendar/fight-api-skill

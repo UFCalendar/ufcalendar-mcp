@@ -31,7 +31,7 @@ http_headers = { Authorization = "Bearer $UFCALENDAR_API_KEY" }
 
 Send `Accept: application/json, text/event-stream`. One tool call = one metered request against the same plan quota as REST. Three discovery tools need no credential.
 
-## Tools (49)
+## Tools (48)
 
 | Tool | What it answers | Access |
 |---|---|---|
@@ -45,7 +45,6 @@ Send `Accept: application/json, text/event-stream`. One tool call = one metered 
 | `get_event_card` | Get an event and its full card | any plan |
 | `get_event_changes` | Get an event’s change log | any plan |
 | `list_changes` | List recent card changes | any plan |
-| `get_event_live` | Get live in-fight stats | Pro+ |
 | `how_to_watch` | How to watch an event | any plan |
 | `get_event_storylines` | Get event storylines | any plan |
 | `get_pickem_splits` | Get pick'em splits | any plan |

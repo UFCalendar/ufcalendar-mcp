@@ -1,7 +1,7 @@
 """Next UFC card and its main event, with the official Python client.
 
 pip install httpx   ·   export UFCALENDAR_API_KEY=ufcalendar_...
-Free key (500 requests/month, no card): https://www.ufcalendar.com/account/api
+Free key (1,000 requests/month, no card): https://www.ufcalendar.com/account/api
 """
 import os
 import httpx

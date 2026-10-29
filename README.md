@@ -6,7 +6,7 @@ There is nothing to install or run: it is a stateless Streamable-HTTP endpoint (
 
 ## Connect
 
-Get a key: free plan (500 requests a month, no card) at https://www.ufcalendar.com/account/api, or sign in with a UFCalendar account from a client that speaks OAuth (Claude.ai, ChatGPT).
+Get a key: free plan (1,000 requests a month, no card) at https://www.ufcalendar.com/account/api, or sign in with a UFCalendar account from a client that speaks OAuth (Claude.ai, ChatGPT).
 
 **One-line installs (plugin + skill + server)**
 ```bash

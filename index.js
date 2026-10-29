@@ -13,7 +13,7 @@ const API_KEY = process.env.UFCALENDAR_API_KEY;
 const URL_ = process.env.UFCALENDAR_MCP_URL || "https://api.ufcalendar.com/mcp";
 if (!API_KEY) {
   // Without a key only the discovery tools answer; say so once, then carry on.
-  console.error("UFCALENDAR_API_KEY is not set: only get_plans, list_orgs and how_to_connect will work. Free key (500 requests/month, no card): https://www.ufcalendar.com/account/api");
+  console.error("UFCALENDAR_API_KEY is not set: only get_plans, list_orgs and how_to_connect will work. Free key (1,000 requests/month, no card): https://www.ufcalendar.com/account/api");
 }
 const headers = API_KEY ? { Authorization: `Bearer ${API_KEY}` } : {};
 

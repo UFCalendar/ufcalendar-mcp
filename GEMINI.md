@@ -4,7 +4,7 @@ This extension connects Gemini CLI to the UFCalendar MCP server at https://api.u
 
 ## Setup
 
-1. Get a free key (500 requests a month, no card) at https://www.ufcalendar.com/account/api
+1. Get a free key (1,000 requests a month, no card) at https://www.ufcalendar.com/account/api
 2. Export it before you start Gemini CLI:
 
    export UFCALENDAR_API_KEY=ufcalendar_...

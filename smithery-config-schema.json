@@ -1,0 +1,1 @@
+{"type":"object","properties":{"apiKey":{"type":"string","title":"API key","description":"Your UFCalendar Fight API key (free plan, no card: https://www.ufcalendar.com/account/api). Leave empty to sign in with OAuth.","x-from":{"header":"authorization","prefix":"Bearer "}}},"required":[]}

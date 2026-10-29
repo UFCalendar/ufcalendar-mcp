@@ -1,0 +1,15 @@
+{
+  "name": "ufcalendar-fight-api",
+  "displayName": "UFCalendar MMA Fight Data",
+  "description": "UFC, PFL, OKTAGON, BKFC and RIZIN fight data for AI agents: schedules, full cards, results within minutes, round-by-round stats, judges' scorecards, rankings history since 2013 and consensus odds.",
+  "version": "1.6.0",
+  "author": { "name": "UFCalendar", "url": "https://www.ufcalendar.com" },
+  "homepage": "https://www.ufcalendar.com/developers/mma-mcp-server",
+  "repository": "https://github.com/UFCalendar/ufcalendar-mcp",
+  "license": "MIT",
+  "documentationUrl": "https://api.ufcalendar.com/docs",
+  "privacyPolicyUrl": "https://www.ufcalendar.com/privacy",
+  "termsOfServiceUrl": "https://www.ufcalendar.com/developers/terms",
+  "supportUrl": "mailto:ceo@ufcalendar.com",
+  "keywords": ["mma", "ufc", "pfl", "bkfc", "rizin", "oktagon", "mma-api", "ufc-api", "mcp", "sports-data", "fight-data", "rankings", "scorecards"]
+}

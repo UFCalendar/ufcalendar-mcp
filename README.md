@@ -6,7 +6,19 @@ There is nothing to install or run: it is a stateless Streamable-HTTP endpoint (
 
 ## Connect
 
-Get a key: free 1-day trial (100 requests, no card) at https://www.ufcalendar.com/account/api?trial=1, or sign in with a UFCalendar account from a client that speaks OAuth (Claude.ai, ChatGPT).
+Get a key: free plan (500 requests a month, no card) at https://www.ufcalendar.com/account/api, or sign in with a UFCalendar account from a client that speaks OAuth (Claude.ai, ChatGPT).
+
+**One-line installs (plugin + skill + server)**
+```bash
+# Claude Code
+/plugin marketplace add UFCalendar/ufcalendar-mcp
+/plugin install ufcalendar-fight-api@ufcalendar
+# Gemini CLI
+gemini extensions install https://github.com/UFCalendar/ufcalendar-mcp
+# Codex: add this repo as a plugin marketplace (.agents/plugins/marketplace.json)
+# Any stdio-only client
+UFCALENDAR_API_KEY=... npx -y github:UFCalendar/ufcalendar-mcp
+```
 
 **Claude Code**
 ```bash

@@ -1,0 +1,8 @@
+{
+  "name": "ufcalendar",
+  "description": "UFC and MMA fight data for Claude Code: the UFCalendar MCP server plus the Fight API skill",
+  "owner": { "name": "UFCalendar", "url": "https://www.ufcalendar.com" },
+  "plugins": [
+    { "name": "ufcalendar-fight-api", "source": "./", "description": "UFC, PFL, OKTAGON, BKFC and RIZIN data over MCP, plus the Fight API skill" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ufcalendar",
+  "version": "1.6.0",
+  "description": "UFCalendar MCP server: UFC, PFL, OKTAGON, BKFC and RIZIN schedules, results, stats, rankings history and scorecards.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "ufcalendar": {
+      "httpUrl": "https://api.ufcalendar.com/mcp",
+      "headers": { "Authorization": "Bearer ${UFCALENDAR_API_KEY}" }
+    }
+  }
+}

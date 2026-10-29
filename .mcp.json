@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ufcalendar": {
+      "type": "http",
+      "url": "https://api.ufcalendar.com/mcp",
+      "bearer_token_env_var": "UFCALENDAR_API_KEY"
+    }
+  }
+}

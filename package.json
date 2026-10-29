@@ -1,0 +1,15 @@
+{
+  "name": "ufcalendar-mcp",
+  "version": "1.6.0",
+  "description": "UFC and MMA fight data MCP server (UFC, PFL, OKTAGON, BKFC, RIZIN): schedules, results, round stats, rankings history, judges' scorecards. Stdio bridge to https://api.ufcalendar.com/mcp",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "ufcalendar-mcp": "index.js" },
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "mma", "ufc", "mma-api", "ufc-api", "pfl", "bkfc", "rizin", "oktagon", "sports-data", "fight-data"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/UFCalendar/ufcalendar-mcp" },
+  "homepage": "https://www.ufcalendar.com/developers/mma-mcp-server",
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.32.2" }
+}
